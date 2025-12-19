@@ -11,7 +11,7 @@ permissions:
 jobs:
   Build-Frontend:
     runs-on: ubuntu-latest
-    if: github.repository == 'GUI-for-Cores/GUI.for.SingBox'
+    if: github.repository == 'glongzh/GUI.for.SingBox'
     steps:
       - uses: actions/checkout@v4
       - uses: pnpm/action-setup@v4
